@@ -48,7 +48,7 @@
     "lint": "tslint -c tslint.json \"src/**/*.ts\""
   },
   "devDependencies": {
-    "@types/node": "^6.0.70",
+    "@types/node": "^7.0.31",
     "tslint": "^5.0.0",
     "typescript": "^2.1.4",
     "vsce": "^1.8.1",
