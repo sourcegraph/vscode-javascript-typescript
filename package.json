@@ -57,7 +57,7 @@
     "vscode": "^1.0.0"
   },
   "dependencies": {
-    "javascript-typescript-langserver": "^2.0.0-pre.25",
+    "javascript-typescript-langserver": "^2.3.0",
     "vscode-languageclient": "^3.0.3"
   }
 }
