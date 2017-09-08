@@ -9,7 +9,7 @@
   "preview": true,
   "version": "0.0.2",
   "engines": {
-    "vscode": "^1.13.0"
+    "vscode": "^1.15.0"
   },
   "keywords": [
     "typescript",
@@ -21,7 +21,7 @@
   "categories": [
     "Languages"
   ],
-  "icon": "images/logo.svg",
+  "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#294E80",
     "theme": "dark"
