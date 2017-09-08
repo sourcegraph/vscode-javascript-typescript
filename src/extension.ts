@@ -2,7 +2,7 @@
 import * as path from 'path';
 import { spawn } from 'child_process';
 import * as vscode from 'vscode';
-import { LanguageClient, LanguageClientOptions, ServerOptions } from 'vscode-languageclient';
+import { LanguageClient, LanguageClientOptions, ServerOptions, RevealOutputChannelOn } from 'vscode-languageclient';
 import * as url from 'url';
 
 export async function activate(context: vscode.ExtensionContext): Promise<void> {
@@ -19,6 +19,7 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
 
     // Options to control the language client
     const clientOptions: LanguageClientOptions = {
+        revealOutputChannelOn: RevealOutputChannelOn.Never,
         // Register the server for php documents
         documentSelector: ['typescript', 'javascript', 'typescriptreact', 'javascriptreact'],
         uriConverters: {
