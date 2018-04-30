@@ -9,7 +9,7 @@
   "preview": true,
   "version": "0.0.5",
   "engines": {
-    "vscode": "^1.15.0"
+    "vscode": "^1.22.0"
   },
   "keywords": [
     "typescript",
@@ -47,17 +47,14 @@
     "lint": "tslint -c tslint.json \"src/**/*.ts\""
   },
   "devDependencies": {
-    "@types/mocha": "^2.2.42",
-    "@types/mz": "0.0.31",
     "@types/node": "^7.0.31",
-    "@types/semver": "^5.4.0",
     "tslint": "^5.0.0",
-    "typescript": "^2.1.4",
+    "typescript": "^2.8.3",
     "vsce": "^1.8.1",
     "vscode": "^1.0.0"
   },
   "dependencies": {
-    "javascript-typescript-langserver": "^2.4.0",
-    "vscode-languageclient": "^3.0.3"
+    "javascript-typescript-langserver": "^2.8.0",
+    "vscode-languageclient": "^4.1.3"
   }
 }
